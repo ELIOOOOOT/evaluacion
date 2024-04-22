@@ -53,11 +53,9 @@ namespace evaluacion
 
         private void BTN_resultado_Click(object sender, EventArgs e)
         {
-            // Obtener el segundo número
             segundoNumero = double.Parse(textBox1.Text);
             double resultado = 0;
 
-            // Realizar la operación correspondiente
             switch (operador)
             {
                 case '+':
@@ -82,73 +80,61 @@ namespace evaluacion
                     break;
             }
 
-            // Mostrar el resultado en el cuadro de texto
             textBox1.Text = resultado.ToString();
         }
 
         private void BTN_cero_Click(object sender, EventArgs e)
         {
-            // Concatenar el dígito al número actual
             textBox1.Text += "0";
         }
 
         private void BTN_uno_Click(object sender, EventArgs e)
         {
-            // Concatenar el dígito al número actual
             textBox1.Text += "1";
         }
 
         private void BTN_dos_Click(object sender, EventArgs e)
         {
-            // Concatenar el dígito al número actual
             textBox1.Text += "2";
         }
 
         private void BTN_tres_Click(object sender, EventArgs e)
         {
-            // Concatenar el dígito al número actual
             textBox1.Text += "3";
         }
 
         private void BTN_cuatro_Click(object sender, EventArgs e)
         {
-            // Concatenar el dígito al número actual
             textBox1.Text += "4";
         }
 
         private void BTN_cinco_Click(object sender, EventArgs e)
         {
-            // Concatenar el dígito al número actual
             textBox1.Text += "5";
         }
 
         private void BTN_seis_Click(object sender, EventArgs e)
         {
-            // Concatenar el dígito al número actual
             textBox1.Text += "6";
         }
 
         private void BTN_siete_Click(object sender, EventArgs e)
         {
-            // Concatenar el dígito al número actual
             textBox1.Text += "7";
         }
 
         private void BTN_ocho_Click(object sender, EventArgs e)
         {
-            // Concatenar el dígito al número actual
             textBox1.Text += "8";
         }
 
         private void BTN_NUEVE_Click(object sender, EventArgs e)
         {
-            // Concatenar el dígito al número actual
             textBox1.Text += "9";
         }
 
         private void BTN_punto_Click(object sender, EventArgs e)
         {
-            // Concatenar el dígito al número actual
             textBox1.Text += ".";
         }
 
